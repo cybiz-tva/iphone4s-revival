@@ -1,0 +1,10 @@
+--- !tapi-tbd-v2
+archs: [ armv7 ]
+platform: ios
+install-name: /usr/lib/libSystem.B.dylib
+current-version: 1226.10.1
+compatibility-version: 1
+exports:
+  - archs: [ armv7 ]
+    symbols: [ __dyld_image_count, __dyld_get_image_name, __dyld_get_image_header, __dyld_get_image_vmaddr_slide, _strcmp, _memcmp, _dlsym, _open, _close, _dlopen, _dlerror, _printf, _alarm, dyld_stub_binder ]
+...

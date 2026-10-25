@@ -1,0 +1,6 @@
+/build/
+__pycache__/
+*.pyc
+!/installer-entitlements.plist
+!/registration-entitlements.plist
+!/app/Info.plist

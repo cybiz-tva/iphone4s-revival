@@ -1,0 +1,76 @@
+Open App Store — sources reviewed 25 October 2026
+
+Use List repo packages to import HTTPS flat Cydia repos. Package installs hand off
+to Cydia for review; indexes are not a guarantee of compatibility.
+
+iNDS Team — Developer releases
+https://github.com/iNDS-Team/iNDS/releases
+Official project releases. Selected IPA inspected for ARMv7 and iOS 9; catalog-pinned SHA-256.
+
+ScummVM — Official archive
+https://downloads.scummvm.org/frs/scummvm/2.2.0/
+Developer archive with published checksums. The selected legacy IPA supports iOS 8 and ARMv7.
+
+Onegram — Developer releases
+https://illyagif.github.io/repo/
+Official developer. The customized installation on this phone is protected from replacement.
+
+TIGI Software — Developer archive
+https://tigisoftware.com/cydia/
+Official Filza archive. Jailbreak support packages require Cydia and may use system storage.
+
+VideoLAN — Developer archive
+https://download.videolan.org/pub/videolan/vlc-iOS/
+Official source archive. App Store app availability is controlled by Apple; no random IPA mirrors.
+
+Libretro / RetroArch — Official builds
+https://buildbot.libretro.com/stable/1.9.0/apple/ios/
+Official legacy IPA archive. Large download; this release has not been inspected by this catalog.
+
+Kodi — Official archive
+https://mirrors.kodi.tv/releases/darwin/ios/
+Official legacy iOS packages. Package requirements must be reviewed; no automatic .deb execution.
+
+PPSSPP — Developer repository
+https://cydia.ppsspp.org/
+Official site explicitly says this Cydia repo is old and no longer updated. Review compatibility.
+
+Apple App Store — Official store
+https://apps.apple.com/
+Apple ID, previous purchases and older-version availability still apply. Open App Store cannot bypass them.
+
+Cydia / Telesphoreo — Legacy package source
+http://apt.saurik.com/
+Original Cydia source. Legacy HTTP transport; package manager trust and dependency checks still matter.
+
+BigBoss — Legacy package source
+http://apt.thebigboss.org/repofiles/cydia/
+Long-standing Cydia repository. Legacy HTTP transport; site unreachable during this check. Not a direct-install source.
+
+Karen / Akemi — Developer releases
+https://cydia.akemi.ai/
+Use only the developer releases. The repository endpoint was unreachable during this check; no signing changes are made here.
+
+Chariz — Modern repository
+https://repo.chariz.com/
+Official marketplace. Many packages target newer iOS / ARM64; browsing does not establish iPhone 4s compatibility.
+
+Havoc — Modern marketplace
+https://havoc.app/
+Official marketplace. Primarily newer devices; do not assume its packages run on iOS 9.
+
+iPhone 4s Revival — Project guide
+https://github.com/cybiz-tva/iphone4s-revival
+Public setup and Onegram notification notes. No app binaries are hosted in this repository.
+
+Computershik — Developer repository
+https://computershik73.github.io/repo/beta/
+Developer legacy app and tweak repository, including Troubadour. Use List repo packages to import its 32-bit listings; Cydia resolves dependencies.
+
+LukeZGD — Developer repository
+https://lukezgd.github.io/repo/
+Developer jailbreak utilities and legacy packages. Listings include tools and tweaks, not only GUI apps. Cydia installs after review.
+
+InvoxiPlayGames — Developer repository
+https://cydia.invoxiplaygames.uk/
+Developer legacy iOS fixes and utilities. Use List repo packages; index declarations alone do not prove service or device compatibility.

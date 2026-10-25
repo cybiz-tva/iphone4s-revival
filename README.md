@@ -16,6 +16,7 @@ Recorded on **24–25 October 2026**. This documents one device and account sess
 | Onegram installation | Icon and existing account confirmed working; app later relocated to the data partition |
 | Telegram account login / messages | User confirmed the account opens and incoming messages work |
 | Onegram notifications outside the app / while locked | Working with the declaration repair and app-specific background helper; user confirmed delivery after 20 minutes |
+| Open App Store | Installed; source imports and Cydia package browsing; iNDS installation tested |
 | Carrier unlock | **Not achieved**; separate Telstra request pending at the time |
 | WhatsApp | No verified working iOS 9 solution installed |
 | VLC | App Store listing opened; installation not confirmed |
@@ -31,8 +32,12 @@ The initial session established Onegram registration and launch. The later follo
 5. [Onegram: disk space, missing icon, and final repair](docs/05-onegram.md)
 6. [Package versions, checksums, and sources](docs/06-packages.md)
 7. [Onegram notifications: Home Screen, lock screen, and persistent helper](docs/07-onegram-notifications.md)
+8. [Open App Store: catalogs, source imports and Cydia packages](docs/08-open-app-store.md)
+9. [Latest progress and unresolved carrier/app limits](docs/09-progress-2026-10-25.md)
 
 The guide retains failed attempts because they explain why the final process took this shape. Follow the successful route first; the experimental provisioning patches did not restore sign-in and were removed.
+
+Latest checkpoint: [25 October 2026](docs/09-progress-2026-10-25.md). The user reports Iocaste untether use; no independently verified cold-boot result is claimed here.
 
 ## Repository contents and privacy
 

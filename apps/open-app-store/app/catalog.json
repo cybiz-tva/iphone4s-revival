@@ -1,0 +1,324 @@
+{
+  "name": "Open App Store",
+  "version": 1,
+  "reviewed": "2026-10-25",
+  "device": "iPhone 4s \u00b7 iOS 9.3.6 \u00b7 ARMv7",
+  "sources": [
+    {
+      "id": "inds",
+      "name": "iNDS Team",
+      "url": "https://github.com/iNDS-Team/iNDS/releases",
+      "type": "Developer releases",
+      "note": "Official project releases. Selected IPA inspected for ARMv7 and iOS 9; catalog-pinned SHA-256."
+    },
+    {
+      "id": "scummvm",
+      "name": "ScummVM",
+      "url": "https://downloads.scummvm.org/frs/scummvm/2.2.0/",
+      "type": "Official archive",
+      "note": "Developer archive with published checksums. The selected legacy IPA supports iOS 8 and ARMv7."
+    },
+    {
+      "id": "onegram",
+      "name": "Onegram",
+      "url": "https://github.com/IllyaGIF/Onegram/releases",
+      "type": "Developer releases",
+      "repoURL": "https://illyagif.github.io/repo/",
+      "note": "Official developer. The customized installation on this phone is protected from replacement."
+    },
+    {
+      "id": "filza",
+      "name": "TIGI Software",
+      "url": "https://www.tigisoftware.com/download/filza.php",
+      "type": "Developer archive",
+      "repoURL": "https://tigisoftware.com/cydia/",
+      "note": "Official Filza archive. Jailbreak support packages require Cydia and may use system storage."
+    },
+    {
+      "id": "videolan",
+      "name": "VideoLAN",
+      "url": "https://download.videolan.org/pub/videolan/vlc-iOS/",
+      "type": "Developer archive",
+      "note": "Official source archive. App Store app availability is controlled by Apple; no random IPA mirrors."
+    },
+    {
+      "id": "retroarch",
+      "name": "Libretro / RetroArch",
+      "url": "https://buildbot.libretro.com/stable/1.9.0/apple/ios/",
+      "type": "Official builds",
+      "note": "Official legacy IPA archive. Large download; this release has not been inspected by this catalog."
+    },
+    {
+      "id": "kodi",
+      "name": "Kodi",
+      "url": "https://mirrors.kodi.tv/releases/darwin/ios/",
+      "type": "Official archive",
+      "note": "Official legacy iOS packages. Package requirements must be reviewed; no automatic .deb execution."
+    },
+    {
+      "id": "ppsspp",
+      "name": "PPSSPP",
+      "url": "https://cydia.ppsspp.org/",
+      "repoURL": "https://cydia.ppsspp.org/",
+      "type": "Developer repository",
+      "note": "Official site explicitly says this Cydia repo is old and no longer updated. Review compatibility."
+    },
+    {
+      "id": "apple",
+      "name": "Apple App Store",
+      "url": "https://apps.apple.com/",
+      "type": "Official store",
+      "note": "Apple ID, previous purchases and older-version availability still apply. Open App Store cannot bypass them."
+    },
+    {
+      "id": "cydia",
+      "name": "Cydia / Telesphoreo",
+      "url": "https://cydia.saurik.com/",
+      "repoURL": "http://apt.saurik.com/",
+      "type": "Legacy package source",
+      "note": "Original Cydia source. Legacy HTTP transport; package manager trust and dependency checks still matter."
+    },
+    {
+      "id": "bigboss",
+      "name": "BigBoss",
+      "url": "https://thebigboss.org/",
+      "repoURL": "http://apt.thebigboss.org/repofiles/cydia/",
+      "type": "Legacy package source",
+      "note": "Long-standing Cydia repository. Legacy HTTP transport; site unreachable during this check. Not a direct-install source."
+    },
+    {
+      "id": "akemi",
+      "name": "Karen / Akemi",
+      "url": "https://github.com/akemin-dayo/AppSync/releases",
+      "repoURL": "https://cydia.akemi.ai/",
+      "type": "Developer releases",
+      "note": "Use only the developer releases. The repository endpoint was unreachable during this check; no signing changes are made here."
+    },
+    {
+      "id": "chariz",
+      "name": "Chariz",
+      "url": "https://chariz.com/",
+      "repoURL": "https://repo.chariz.com/",
+      "type": "Modern repository",
+      "note": "Official marketplace. Many packages target newer iOS / ARM64; browsing does not establish iPhone 4s compatibility."
+    },
+    {
+      "id": "havoc",
+      "name": "Havoc",
+      "url": "https://havoc.app/",
+      "repoURL": "https://havoc.app/",
+      "type": "Modern marketplace",
+      "note": "Official marketplace. Primarily newer devices; do not assume its packages run on iOS 9."
+    },
+    {
+      "id": "revival",
+      "name": "iPhone 4s Revival",
+      "url": "https://github.com/cybiz-tva/iphone4s-revival",
+      "type": "Project guide",
+      "note": "Public setup and Onegram notification notes. No app binaries are hosted in this repository."
+    },
+    {
+      "id": "computershik",
+      "name": "Computershik",
+      "url": "https://computershik73.github.io/repo/beta/",
+      "repoURL": "https://computershik73.github.io/repo/beta/",
+      "type": "Developer repository",
+      "note": "Developer legacy app and tweak repository, including Troubadour. Use List repo packages to import its 32-bit listings; Cydia resolves dependencies."
+    },
+    {
+      "id": "lukezgd",
+      "name": "LukeZGD",
+      "url": "https://lukezgd.github.io/repo/",
+      "repoURL": "https://lukezgd.github.io/repo/",
+      "type": "Developer repository",
+      "note": "Developer jailbreak utilities and legacy packages. Listings include tools and tweaks, not only GUI apps. Cydia installs after review."
+    },
+    {
+      "id": "invoxiplaygames",
+      "name": "InvoxiPlayGames",
+      "url": "https://cydia.invoxiplaygames.uk/",
+      "repoURL": "https://cydia.invoxiplaygames.uk/",
+      "type": "Developer repository",
+      "note": "Developer legacy iOS fixes and utilities. Use List repo packages; index declarations alone do not prove service or device compatibility."
+    }
+  ],
+  "apps": [
+    {
+      "id": "inds",
+      "name": "iNDS",
+      "bundle": "net.nerd.iNDS",
+      "version": "1.10.8",
+      "category": "Games",
+      "source": "inds",
+      "kind": "ipa",
+      "summary": "Nintendo DS emulator. Bring your own game files; no games are included.",
+      "url": "https://github.com/iNDS-Team/iNDS/releases/download/v1.10.8/iNDS.ipa",
+      "bytes": 8553596,
+      "sha256": "795253059e78f7acd96af1ce6e9430bc98611cf58342e51f8e7e6e8c459a59b0",
+      "minOS": "9.0",
+      "hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com",
+        "objects.githubusercontent.com"
+      ],
+      "compat": "Inspected: iOS 9 / ARMv7",
+      "color": "#3459d1"
+    },
+    {
+      "id": "scummvm",
+      "name": "ScummVM",
+      "bundle": "org.scummvm.scummvm",
+      "version": "2.2.0",
+      "category": "Games",
+      "source": "scummvm",
+      "kind": "ipa",
+      "summary": "Classic adventure-game engine. Bring your own game data; no games are included.",
+      "url": "https://downloads.scummvm.org/frs/scummvm/2.2.0/scummvm-2.2.0-ios.ipa",
+      "bytes": 57222372,
+      "sha256": "a94c6c3e607a62c75c2e4b767b84ee4acd8798f0855186ca339f4fde5a46970e",
+      "minOS": "8.0",
+      "hosts": [
+        "downloads.scummvm.org"
+      ],
+      "compat": "Inspected: iOS 8+ / ARMv7",
+      "color": "#2f8055"
+    },
+    {
+      "id": "onegram",
+      "name": "Onegram",
+      "bundle": "dev.IllyaGIF.Onegram",
+      "version": "1.4.2",
+      "category": "Communication",
+      "source": "onegram",
+      "kind": "managed",
+      "summary": "Your customized Telegram client. Its notification fix and account are preserved.",
+      "compat": "Working on this phone",
+      "color": "#1685b9"
+    },
+    {
+      "id": "filza",
+      "name": "Filza",
+      "bundle": "com.tigisoftware.Filza",
+      "version": "3.0.4",
+      "category": "Utilities",
+      "source": "filza",
+      "kind": "cydia",
+      "summary": "File manager. Existing app and privileged support are preserved.",
+      "handoff": "cydia://package/com.tigisoftware.filza",
+      "compat": "Existing legacy installation",
+      "color": "#d49722"
+    },
+    {
+      "id": "mterminal",
+      "name": "MTerminal",
+      "bundle": "com.officialscheduler.mterminal",
+      "version": "1.4-5",
+      "category": "Utilities",
+      "source": "bigboss",
+      "kind": "cydia",
+      "summary": "On-device shell. Review package dependencies in Cydia.",
+      "handoff": "cydia://package/com.officialscheduler.mterminal",
+      "compat": "Existing legacy installation",
+      "color": "#394553"
+    },
+    {
+      "id": "vlc",
+      "name": "VLC",
+      "bundle": "org.videolan.vlc-ios",
+      "version": "3.3.12",
+      "category": "Media",
+      "source": "videolan",
+      "kind": "apple",
+      "summary": "Media player. Open the installed version; Apple controls older downloads.",
+      "handoff": "itms-apps://itunes.apple.com/app/id650377962",
+      "compat": "Existing legacy installation",
+      "color": "#d66d1b"
+    },
+    {
+      "id": "chrome",
+      "name": "Chrome",
+      "bundle": "com.google.chrome.ios",
+      "version": "63",
+      "category": "Web",
+      "source": "apple",
+      "kind": "apple",
+      "summary": "Opens the installed legacy browser. Current Chrome releases do not target iOS 9.",
+      "handoff": "itms-apps://itunes.apple.com/app/id535886823",
+      "compat": "Existing legacy installation",
+      "color": "#397646"
+    },
+    {
+      "id": "mt5",
+      "name": "MetaTrader 5",
+      "bundle": "net.metaquotes.MetaTrader5Terminal",
+      "version": "5.0.1605",
+      "category": "Finance",
+      "source": "apple",
+      "kind": "apple",
+      "summary": "The installed legacy build reports outdated. Broker connectivity is not verified; this store does not fix its trading protocol.",
+      "handoff": "itms-apps://itunes.apple.com/app/id413251709",
+      "compat": "Legacy app; service limitation",
+      "color": "#426d9a"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "bundle": "net.whatsapp.WhatsApp",
+      "version": "2.8.7",
+      "category": "Communication",
+      "source": "apple",
+      "kind": "reference",
+      "summary": "The old installed build is not a verified working WhatsApp service. Do not expect a current client on iOS 9.",
+      "compat": "Service unsupported",
+      "color": "#51885c"
+    },
+    {
+      "id": "cydia",
+      "name": "Cydia",
+      "bundle": "com.saurik.Cydia",
+      "version": "",
+      "category": "Utilities",
+      "source": "cydia",
+      "kind": "managed",
+      "summary": "Review jailbreak packages and their system dependencies in the installed package manager.",
+      "compat": "Installed package manager",
+      "color": "#876752"
+    },
+    {
+      "id": "retroarch",
+      "name": "RetroArch",
+      "bundle": "com.libretro.RetroArch",
+      "version": "1.9.0",
+      "category": "Games",
+      "source": "retroarch",
+      "kind": "reference",
+      "summary": "Official legacy IPA archive. Large download; compatibility inspection is still required before direct installation.",
+      "compat": "Not yet inspected",
+      "color": "#414a59"
+    },
+    {
+      "id": "kodi",
+      "name": "Kodi",
+      "bundle": "org.xbmc.kodi-ios",
+      "version": "17.6",
+      "category": "Media",
+      "source": "kodi",
+      "kind": "reference",
+      "summary": "Official legacy packages. Direct IPA installation is not enabled for this package format.",
+      "compat": "Review legacy package requirements",
+      "color": "#247f9f"
+    },
+    {
+      "id": "ppsspp",
+      "name": "PPSSPP",
+      "bundle": "org.ppsspp.ppsspp",
+      "version": "",
+      "category": "Games",
+      "source": "ppsspp",
+      "kind": "reference",
+      "summary": "Official old developer repository. No games are included. Review its legacy build requirements.",
+      "compat": "Repository no longer updated",
+      "color": "#309ab9"
+    }
+  ]
+}
