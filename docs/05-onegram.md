@@ -1,5 +1,7 @@
 # Onegram: from failed installation to a registered, running app
 
+> **Later follow-up:** login, incoming messages, Home Screen notifications and locked-screen notifications were subsequently confirmed. The app was moved to a physical data-partition path with explicit registration. Read [the notification solution and current layout](07-onegram-notifications.md) before using this older installation chronology. In particular, a global `uicache` refresh later dropped linked app registrations; do not apply the historical cache-refresh commands below to that linked layout.
+
 ## Exact package
 
 [Onegram](https://github.com/IllyaGIF/Onegram) is an unofficial Telegram client. The developer documents older iOS and ARM device support. This case used:
@@ -14,7 +16,7 @@ Launcher: Telegram
 Real executable: Telegram.real
 ```
 
-Do not confuse this package with the `iphoneos-arm64` package for newer jailbreaks. Compatibility metadata is not proof of working Telegram login; the latter was still untested at the end of this case.
+Do not confuse this package with the `iphoneos-arm64` package for newer jailbreaks. Compatibility metadata is not proof of working Telegram login; login was untested at this initial stopping point and was confirmed in the [later follow-up](07-onegram-notifications.md).
 
 Download from the developer's repository:
 
@@ -60,7 +62,7 @@ Those commands returned without a useful error, but the user still saw no icon i
 
 A subsequent file-by-file copy over SFTP was too slow and was stopped. The final repair used one compressed archive instead. We did not establish a universal root cause for every missing icon; the complete physical layout plus cache refresh and SpringBoard restart is what changed the result in this case.
 
-## Final successful layout
+## Initial successful layout (historical)
 
 Keep the complete original package extracted on the **data partition**:
 
@@ -143,9 +145,9 @@ The process list contained:
 /Applications/Onegram.app/Telegram.real
 ```
 
-This establishes registration and a running executable at the check, not successful Telegram account authentication. The user was asked to open Onegram and sign in directly on the phone. **This repository stops before that test.**
+This established registration and a running executable at the check, not successful Telegram account authentication. The user was asked to open Onegram and sign in directly on the phone. The [later follow-up](07-onegram-notifications.md) confirmed the icon, existing account, messages and notification repair.
 
-Push notifications were not configured. The upstream release mentions a separate push helper; it was not installed in this session.
+Notifications were not configured in this initial session. The later independent keep-alive helper is documented separately; it is not the upstream Push Helper and does not provide genuine APNs push.
 
 ## Removing the manually deployed app
 

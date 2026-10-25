@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GroupName</key>
+	<string>wheel</string>
+	<key>KeepAlive</key>
+	<dict>
+		<key>PathState</key>
+		<dict>
+			<key>/var/local/onegram-keepalive/enabled</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Label</key>
+	<string>dev.codex.onegram-keepalive</string>
+	<key>Nice</key>
+	<integer>10</integer>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/var/local/onegram-keepalive/keeper</string>
+		<string>--daemon</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/var/local/onegram-keepalive/daemon-logs/service.log</string>
+	<key>StandardOutPath</key>
+	<string>/var/local/onegram-keepalive/daemon-logs/service.log</string>
+	<key>ThrottleInterval</key>
+	<integer>15</integer>
+	<key>UserName</key>
+	<string>root</string>
+</dict>
+</plist>

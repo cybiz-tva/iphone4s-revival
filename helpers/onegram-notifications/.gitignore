@@ -1,0 +1,8 @@
+/keeper
+/OnegramKeepAlive.dylib
+/register-onegram
+__pycache__/
+!/entitlements.plist
+!/registration-entitlements.plist
+!/service.plist
+!/OnegramKeepAlive.plist
